@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht02</title>
+    <style>
+        table, tr, td, th {
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 30px;
+            width: 150px;
+        }
+        table {
+            margin: 0 auto;
+        }
+        table#t02 {
+            border: solid 1px black;
+            border-collapse: separate;
+
+        }
+        td {
+            padding: 30px;
+            width: 150px;
+        }
+        table#t03 {
+            border: solid 1px black;
+            border-collapse: collapse;
+
+        }
+        td {
+            padding: 30px;
+            width: 150px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>opdracht 2 toegewezen tabellen</h1>
+&nbsp;
+<table>
+    <tr>
+
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Eating</th>
+    </tr>
+    <tr>
+        <th>Minimum</th>
+        <th>Maximum</th>
+        <th>2 hours after eating</th>
+    </tr>
+    <tr>
+        <th>Healthy</th>
+        <th>70</th>
+        <th>100</th>
+        <th>Less than 140</th>
+    </tr>
+    <tr>
+        <th>Pre-Diabetes</th>
+        <th>101</th>
+        <th>126</th>
+        <th>140 to 200</th>
+    </tr>
+    <tr>
+        <th>Diabetes</th>
+        <th>More than 126</th>
+        <th>N/A</th>
+        <th>More than 200</th>
+    </tr>
+
+
+</table>
+&nbsp;
+<table id="t02" width="600px">
+    <tr>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+    </tr>
+    <tr>
+        <td rowspan="5">You can span<br>down.</td>
+        <td colspan="3">You can span across.</td>
+    </tr>
+    <tr>
+        <td colspan="2">It's like a puzzle.</td>
+        <td rowspan="4">Over<br>here.</td>
+    </tr>
+    <tr>
+        <td rowspan="3">This<br>way</td>
+        <td>That way.</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Where am <br>I?</td>
+    </tr>
+</table>
+&nbsp;
+<table id="t03" width="150px">
+    <tr>
+        <th rowspan="10">1</th>
+        <th rowspan="5">2</th>
+        <th rowspan="3">3</th>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+        <th rowspan="4">4</th>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+        <th rowspan="5">5</th>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+        <th rowspan="3">6</th>
+    </tr>
+    <tr>
+
+
+
+    </tr>
+</table>
+
+</body>
+</html>
