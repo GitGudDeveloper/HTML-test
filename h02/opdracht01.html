@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my first website</title>
+    <script>
+        function show(shown, hidden) {
+            document.getElementById(shown).style.display='block';
+            document.getElementById(hidden).style.display='none';
+            return false;
+        }
+    </script>
+
+</head>
+<body>
+
+<div id="Page1">
+
+    <h1>anime</h1>
+    &nbsp;
+    <p> <img src="gokusupersaiyangod.png" > <img src="kiritowithdualblades.jpg" width="320" height="381"> </p>
+
+
+
+    <a href="#" onclick="return show('Page2','Page1');">artikel</a>
+    &nbsp;
+
+</div>
+
+<div id="Page2" style="display:none">
+    <h1>anime</h1>
+    &nbsp;
+
+    &nbsp;
+    <h3>japanse animatie</h3>
+    <p>anime is japanse animatie en niet altijd bedoeld voor kinderen.<br>
+        hieronder een lijst met linkjes naar sites die gaan over anime:</p>
+    &nbsp;
+    <ul>
+        <li> <a href="https://nl.wikipedia.org/wiki/Anime" >wikipedia nl</a> </li>
+        <li><a href="https://en.wikipedia.org/wiki/Anime">wikipedia en</a> </li>
+    </ul>
+    <a href="#" onclick="return show('Page1','Page2');">Home page</a>
+</div>
+
+</body>
+</html>
+</file>
+
