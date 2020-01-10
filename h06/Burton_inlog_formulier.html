@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>burton education inloggen</title>
+    <style>
+        div.form-group {
+            width: 350px;
+            padding: 20px;
+        }
+        input {
+            float: right;
+            width: 200px;
+        }
+        #LabelGeslacht {
+            float: left;
+
+        }
+        #radioman {
+            width: 10px;
+            margin-left: 90px;
+            float: left;
+        }
+        #LabelMan {
+
+        }
+        #radiovrouw {
+            width: 10px;
+            margin-left: 90px;
+            float: left;
+
+        }
+        #LabelVrouw {
+
+        }
+        div.Geslacht {
+            width: 350px;
+            padding: 20px;
+        }
+        section.man {
+            float: left;
+        }
+        section.vrouw {
+            float: right;
+        }
+        div.oogkleur {
+            width: 350px;
+            padding: 20px;
+        }
+        div.geboortedatum {
+            width: 350px;
+            padding: 20px;
+        }
+        div.textarea {
+            width: 350px;
+            padding: 20px;
+        }
+        #idtextarea {
+            width: 200px;
+            height: 100px;
+        }
+        div.lekkereten {
+            width: 300px;
+            float: right;
+            float: ;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<form action="http://www.savatarian.com/html5/form.php" method="post" >
+
+        <div class="form-group">
+            <h2>Burton Education</h2>
+            <span class="verplicht">* verplicht veld</span>
+        </div>
+        <div class="form-group">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" name="voornaam" id="voornaam" required>
+        </div>
+        <div class="form-group">
+            <label for="Tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" name="Tussenvoegsel" id="Tussenvoegsel" required>
+        </div>
+        <div class="form-group">
+            <label for="Achternaam">Achternaam</label>
+            <input type="text" name="Achternaam" id="Achternaam" required>
+        </div>
+        <div class="Geslacht">
+            <label id="LabelGeslacht">Geslacht</label>
+            <section class="man">
+            <input type="radio" name="geslacht" value="man" id="radioman" required > <label id="LabelMan">man</label>
+            </section>
+            <section class="vrouw">
+            <input type="radio" name="geslacht" value="vrouw" id="radiovrouw" required > <label id="LabelVrouw">vrouw</label>
+            </section>
+        </div>
+
+        <div class="oogkleur">
+            <label>Kleur ogen</label>
+            <input type="color" required>
+        </div>
+        <div class="geboortedatum">
+            <label>Geboortedatum</label>
+            <input type="date" id="datum" >
+        </div>
+        <div class="textarea">
+            <label>Omschrijving</label>
+            <input type="text" id="idtextarea">
+        </div>
+        <div class="lekkereten">
+            <label>Lekker eten</label>
+            <input type="checkbox" name="eten" >Sperciebonen<br>
+            <input type="checkbox" name="eten" >Aardappelen<br>
+            <input type="checkbox" name="eten" >Hamburger
+
+        </div>
+
+        <div>
+            <input type="submit" name="knop">
+        </div>
+
+</form>
+</body>
+</html>
